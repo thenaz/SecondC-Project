@@ -6,11 +6,11 @@
 //  Copyright © 2017 Nazir, Ammar. All rights reserved.
 //
 
-#include "ProjectController.hpp"
+#include "Controller.hpp"
 
 int main()
 {
-    ProjectController * app = new ProjectController();
+    Controller * app = new Controller();
     app->start();
     return 0;
 }

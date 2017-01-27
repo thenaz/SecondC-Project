@@ -9,5 +9,13 @@
 #ifndef Controller_h
 #define Controller_h
 
+class Controller
+{
+private:
+    void tryNumbers(int sent);
+    int changeNumber();
+public:
+    void start();
+};
 
 #endif /* Controller_h */
